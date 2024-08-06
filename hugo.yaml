@@ -1,0 +1,31 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Krishna Pranay Angara
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: "Hey! \U0001F44B"
+    Content: Welcome to my Portfolio!
+
+  socialIcons:
+    - name: Medium
+      url: "https://medium.com/@persspectivecomputing"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/krishnapranayangara/"
+    - name: github
+      url: "https://github.com/krishnapranayangara/"
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+
+menu:
+  main:
+    - identifier: Journey
+      name: Journey
+      url: /journey/
+      weight: 10
+    - identifier: Contact
+      name: Contact
+      url: /contact/
+      weight: 20
