@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnapranayangara/portfolio.git"
+  },
+  "author": "krishnapranayangara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishnapranayangara/portfolio/issues"
+  },
+  "homepage": "https://github.com/krishnapranayangara/portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "portfolio": "file:"
+  }
+}
